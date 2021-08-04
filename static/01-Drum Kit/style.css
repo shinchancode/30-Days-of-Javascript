@@ -1,0 +1,110 @@
+html 
+{
+    font-size: 10px;
+    background-color: #19172e;
+    overflow: hidden;
+  }
+  
+  body,html 
+  {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h3
+  {
+    font-size: 6rem;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Chicle', cursive;
+  }
+
+  h4
+  {
+    margin: 10px;
+    font-size: 4rem;
+    text-align: center;
+    top: 0;
+    padding-top: 5px;
+    color: #fff;
+    font-family: 'Zhi Mang Xing', cursive;
+  }
+
+  .keys 
+  {
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key 
+  {
+    border: .4rem solid white;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 8rem;
+    text-align: center;
+    color: white;
+    background-color: #212121;
+  }
+  
+  .playing 
+  {
+    transform: scale(1.1);
+    border-color: #bb86fc;
+    box-shadow: 0 0 2rem #bb86fc;
+  }
+  
+  kbd 
+  {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  .sound 
+  {
+    font-family: 'Chicle', cursive;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #bb86fc;
+  }
+  footer 
+  {
+    text-align: center;
+    color: #51fd00;
+    font-size: 2.5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    padding: 5px;
+    font-family: 'Rancho', cursive;
+  }
+  
+  footer a:visited
+  {
+    color: inherit;
+  }
+
+  footer p
+  {
+    margin: 0px;
+  }
+
+  @media (max-width: 1080px) 
+  {
+    .keys 
+    {
+      grid-template-columns:repeat(3,auto);
+      min-height: auto;
+    }
+  }

@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #19172e;
+  }
+
+  
+  h1{
+    color: white;
+    font-family: 'Chicle', cursive;
+    text-align: center;
+    top: 0;
+    padding-top: 40px;
+  }
+  
+  .player {
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .track-art {
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    background-image: url("ncs.jpg");
+    background-size: cover;
+    border-radius: 15%;
+  }
+  
+  .now-playing {
+    font-size: 1rem;
+  }
+  
+  .track-name {
+    font-size: 2.5rem;
+  }
+  
+  .track-artist {
+    font-size: 1.5rem;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .playpause-track {
+    padding: 10px;
+  }
+  
+  .slider_container {
+    width: 75%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .seek_slider#special,
+  .volume_slider#special {
+    appearance: none;
+    height: 5px;
+    background: white;
+  }
+  
+  .seek_slider {
+    width: 60%;
+  }
+  
+  .volume_slider {
+    width: 30%;
+  }
+  
+  .current-time,
+  .total-duration {
+    padding: 5px;
+  }
+  
+  i.fa-volume-down,
+  i.fa-volume-up {
+    padding: 5px;
+  }
+  
+  footer 
+  {
+    text-align: center;
+    color: #51fd00;
+    font-size: 1.2rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: 'Rancho', cursive;
+  }
+  
+  footer a:visited
+  {
+    color: inherit;
+  }
+
+  footer p
+  {
+    margin: 0px;
+  }
+
+  @media (max-width: 400px)
+  {
+
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="drawing-pad.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Chicle&family=Fira+Sans+Extra+Condensed:ital@1&family=Fira+Sans:ital,wght@1,500&family=Rancho&display=swap" rel="stylesheet">
+    <title>Drawing Pad</title>
+</head>
+<body>
+    <h3>Drawing Pad</h3>
+    <div class="sidebar">
+        <ul>
+            <li>
+                <label for="color">Color:</label>
+                <input type="color" id="color"/>
+            </li>
+            <li>
+                <label for="weight">Thickness:</label>
+                <input type="number" id="weight" min="2" max="200" value="3"/>
+            </li>
+            <li>
+                <button id="clear">Clear</button>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <p>&#x3c;&#47;&#x3e; &nbsp with ❤️ by
+          <a href="https://aartirathi17.herokuapp.com/" target="_blank"> Aarti Rathi</a>😎 #30DaysOfJavaScript</p>
+          <!-- <p>#30DaysOfJavaScript</p> -->
+    </footer>
+
+    <!-- Using p5.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

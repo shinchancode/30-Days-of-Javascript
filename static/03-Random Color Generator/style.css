@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body 
+  {
+    color: black;
+    background-color: #19172e;
+  }
+  
+  .heading {
+    color: white;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Chicle', cursive;
+  }
+  
+  .btn {
+    background: #333;
+    color: white;
+    padding: 15px 60px;
+    font-size: 1.5rem;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Baloo Bhai 2', cursive;
+  }
+  
+  .btn:hover 
+  {
+    color: #000000;
+    background-color: white;
+  }
+  
+  .container 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 80px;
+  }
+  
+  .box {
+    width: 33.3%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #19172e;
+    border: 2px solid #19172e;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  footer 
+  {
+    text-align: center;
+    color: #51fd00;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: 'Rancho', cursive;
+  }
+  
+  footer a:visited
+  {
+    color: inherit;
+  }
+
+  footer p
+  {
+    margin: 0px;
+  }
+  
+  @media (max-width: 500px) 
+  {
+    .box 
+    {
+      font-size: 0.8rem;
+    }
+    .container 
+    {
+      margin: 0px 0px;
+    }
+  }

@@ -1,0 +1,98 @@
+* {
+    background-color: #19172e;
+    user-select: none;
+  }
+  
+  
+  h2 {
+    margin: 10px;
+    font-family: 'Chicle', cursive;
+    top: 0;
+    padding-top: 20px;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 300px;
+    margin: 15px auto;
+  }
+  
+  #display {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: right;
+    height: 60px;
+    padding-right: 10px;
+    line-height: 80px;
+    font-size: 1.5rem;
+    border-radius: 15px 15px 0 0;
+    background-color: #d0d0cf;
+    color: black;
+  }
+  
+  .buttons {
+    font-family: 'Baloo Bhai 2', cursive;
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr 0.8fr;
+  }
+  
+  .button {
+    color: white;
+    border: 0.5px solid white;
+    line-height: 80px;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .color {
+    color: rgb(250, 125, 9);
+  }
+  
+  .button.left {
+    border-radius: 0 0 0 15px;
+  }
+  
+  .button.right {
+    border-radius: 0 0 15px 0;
+  }
+  
+  #equal {
+    background-color: rgb(85, 85, 255);
+  }
+  
+  #equal:active {
+    background-color: #ccca58 !important;
+  }
+  
+  .button:active {
+    background-color: #ccca58;
+  }
+  
+  footer 
+  {
+    text-align: center;
+    color: #51fd00;
+    font-size: 1.5rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: 'Rancho', cursive;
+  }
+  
+  footer a:visited
+  {
+    color: inherit;
+  }
+
+  footer p
+  {
+    margin: 0px;
+  }
+
+  @media (max-width: 400px)
+  {
+
+  }
