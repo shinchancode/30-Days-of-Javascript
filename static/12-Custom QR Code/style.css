@@ -37,6 +37,7 @@
     text-align: center;
     color: rgb(27, 228, 44);
     font-size: 1.5rem;
+    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
@@ -53,4 +54,13 @@
   footer p
   {
     margin: 0px;
+  }
+
+  @media (max-width: 400px)
+  {
+    .imgg
+    {
+      width: 250px;
+      height: 250px;
+    }
   }

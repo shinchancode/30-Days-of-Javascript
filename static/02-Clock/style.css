@@ -23,7 +23,7 @@
     left: 0;
     right: 0;
     top: 0;
-    padding: 100px;
+    padding: 70px;
     font-family: 'Chicle', cursive;
     line-height: 3vh;
     font-size: 4rem;
@@ -118,7 +118,7 @@
     text-align: center;
     color: #51fd00;
     font-size: 1.5rem;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     right: 0;
     bottom: 0;
@@ -135,4 +135,26 @@
   footer p
   {
     margin: 0px;
+  }
+
+  @media (max-width: 300px) 
+  {
+    .clock 
+    {
+      width: 300px;
+      height: 300px;
+    }
+    
+  
+    .clock .min,
+    .mn 
+    {
+      height: 180px;
+    }
+    
+    .clock .sec,
+    .sc 
+    {
+      height: 200px;
+    }
   }

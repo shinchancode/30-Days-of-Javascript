@@ -49,7 +49,7 @@
   footer 
   {
     text-align: center;
-    color: #0032fd;
+    color: #51fd00;
     font-size: 1.5rem;
     position: absolute;
     left: 0;
@@ -72,5 +72,13 @@
 
   @media (max-width: 400px)
   {
-
+    .section, .section #color-picker
+    {
+      
+      width: 90%;
+    }
+    .section >p
+    {
+      font-size: 0.8rem;
+    }
   }

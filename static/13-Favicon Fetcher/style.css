@@ -62,7 +62,10 @@ footer
     margin: 0px;
   }
 
-  @media (max-width: 400px)
+  @media (max-width: 800px)
   {
-
+    label input
+    {
+      width:80vw;
+    }
   }

@@ -69,7 +69,7 @@
     text-align: center;
     color: #51fd00;
     font-size: 1.5rem;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     right: 0;
     bottom: 0;
@@ -100,8 +100,21 @@
       font-size: 15px;
     }
     input[type="text"] {
-      width: 350px;
+      width: 90%;
       font-size: 15px;
     }
   
+  }
+
+  @media (max-width: 460px)
+  {
+    .section 
+    {
+      width: 95%;
+    }
+  
+    .controls 
+    {
+      width: 90%;
+    }
   }

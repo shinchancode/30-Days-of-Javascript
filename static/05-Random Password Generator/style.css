@@ -7,6 +7,7 @@
   
   body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -16,7 +17,7 @@
   h2 {
     position: absolute;
     top: 0;
-    padding-top: 150px;
+    padding-top: 120px;
     color: white;
     font-size: 4rem;
     text-align: center;
@@ -56,7 +57,6 @@
   }
   
   #btn {
-    position: absolute;
     cursor: pointer;
     color: #fff;
     background: #333;
@@ -64,7 +64,7 @@
     padding: 15px;
     border-radius: 8px;
     bottom: 0;
-    margin: 200px auto;
+    margin: 20px auto;
     font-family: 'Fira Sans', sans-serif;
   }
   
@@ -105,5 +105,25 @@
     .inputBox {
       width: 300px;
       font-size: 20px;
+    }
+    .inputBox input,#btn
+    {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 350px)
+  {
+    h2
+    {
+      font-size: 2rem;
+    }
+    .inputBox {
+      width: 250px;
+      font-size: 15px;
+    }
+    .inputBox input,#btn
+    {
+      font-size: 10px;
     }
   }

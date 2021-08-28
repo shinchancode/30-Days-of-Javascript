@@ -81,7 +81,7 @@ html
     text-align: center;
     color: #51fd00;
     font-size: 2.5rem;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     right: 0;
     bottom: 0;
@@ -106,5 +106,13 @@ html
     {
       grid-template-columns:repeat(3,auto);
       min-height: auto;
+    }
+  }
+  @media (max-width: 350px) 
+  {
+    .key
+    {
+      width: 5.5rem;
+      height: 5.5rem;
     }
   }

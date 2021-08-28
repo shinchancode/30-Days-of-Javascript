@@ -21,10 +21,12 @@
   .container {
     font-family: 'Baloo Bhai 2', cursive;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     width: 400px;
     max-width: 100%;
-    padding-top: 80px;
+    padding-top: 30px;
   }
   
   .card {
@@ -74,6 +76,7 @@
     text-align: center;
     color: #51fd00;
     font-size: 1.5rem;
+    /* position: absolute; */
     left: 0;
     right: 0;
     bottom: 0;

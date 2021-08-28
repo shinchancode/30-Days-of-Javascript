@@ -4,6 +4,9 @@
     box-sizing: border-box;
     user-select: none;
   }
+  body{
+    background-color: #161623;
+  }
   
   
   section {
@@ -11,8 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: #161623;
+    min-height: 90vh;
     overflow: hidden;
   }
   
@@ -26,6 +28,7 @@
   }
   
   .box {
+    margin-top: 100px;
     position: relative;
     z-index: 1000;
   }
@@ -45,12 +48,12 @@
   
   #dycalendar {
     width: 100%;
-    padding: 20px;
+    padding: 10px;
   }
   
   #dycalendar table {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     border-spacing: 8px;
   }
   
@@ -63,7 +66,7 @@
   
   #dycalendar table td {
     color: #fff;
-    padding: 10px;
+    /* padding: 10px; */
     cursor: pointer;
     border-radius: 4px;
   }
@@ -143,7 +146,6 @@
     margin: 0px;
   }
   
-  @media (max-width: 650px)
+  @media (max-width: 400px)
   {
-
   }

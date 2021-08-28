@@ -49,11 +49,13 @@
   }
   
   #location {
+    text-align: center;
     color: #56bdf9;
     font-size: 4rem;
     font-weight: 800;
   }
   .desc {
+    text-align: center;
     font-size: 1.8rem;
     text-transform: capitalize;
   }
