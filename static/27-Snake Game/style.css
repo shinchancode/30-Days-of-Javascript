@@ -1,0 +1,143 @@
+  
+body 
+{
+  color: white;
+	background-color: #19172e;
+  font-family: 'Baloo Bhai 2', cursive;
+  height: 100vh;
+}
+
+h1 
+{
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Chicle', cursive;
+}
+
+
+h2 
+{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 45px;
+}
+
+  .main 
+  {
+    background: #614385;
+    background: -webkit-linear-gradient(to right, #516395, #614385);
+    background: linear-gradient(to right, #516395, #614385);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.content {
+    width: 300px;
+    height: 365px;
+    padding-top: 8px;
+}
+
+#board {
+    background-color: #260e44;
+    width: 260px;
+    height: 285px;
+    border: 4px solid white;
+    border-radius: 4px;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-left: 18px;
+    margin-top:5px;
+
+}
+
+#scoreBox {
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    bottom: 11%;
+    left: 30%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#hiscoreBox {
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    bottom: 5%;
+    left: 16%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.head {
+    background: yellow;
+    border: 2px solid rgb(26, 1, 26);
+    transform: scale(1.02);
+    border-radius: 9px;
+}
+
+.snake {
+    background-color: rgb(0, 225, 255);
+}
+
+.food {
+    background: red;
+    border: .25vmin solid black;
+    border-radius: 8px;
+}
+  
+  footer 
+  {
+    text-align: center;
+    color: #51fd00;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: 'Rancho', cursive;
+  }
+  
+  footer a:visited
+  {
+    color: inherit;
+  }
+
+  footer p
+  {
+    margin: 0px;
+  }
+
+  @media (max-width: 418px)
+  {
+    h2
+    {
+      font-size: 30px;
+    }
+    h3
+    {
+      font-size: 2rem;
+    }
+    .card {
+      height: 60px;
+      width: 60px;
+    }
+    .container {
+      width:325px;
+    }
+  }
