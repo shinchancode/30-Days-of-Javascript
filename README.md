@@ -42,8 +42,8 @@ To host the webpage locally at port
 ## [Day 06 - Calendar](https://rathi30daysofjava.herokuapp.com/06-Calendar/index.html)
 ![Calendar](https://github.com/shinchancode/30-Days-of-Javascript/blob/main/static/img/06.png)
 
-## [Day 07 - Dynamic Form Field](https://rathi30daysofjava.herokuapp.com/07-Age%20Calculator/index.html)
-![Dynamic Form Field](https://github.com/shinchancode/30-Days-of-Javascript/blob/main/static/img/07.png)
+## [Day 07 - Age Calculator](https://rathi30daysofjava.herokuapp.com/07-Age%20Calculator/index.html)
+![Age Calculator](https://github.com/shinchancode/30-Days-of-Javascript/blob/main/static/img/07.png)
 
 ## [Day 08 - Number Counter](https://rathi30daysofjava.herokuapp.com/08-Number%20Counter/index.html)
 ![Number Counter](https://github.com/shinchancode/30-Days-of-Javascript/blob/main/static/img/08.png)
@@ -102,8 +102,8 @@ To host the webpage locally at port
 ## [Day 26 - Calculator](https://rathi30daysofjava.herokuapp.com/26-Calculator/index.html)
 ![Calculator](https://github.com/shinchancode/30-Days-of-Javascript/blob/main/static/img/26.png)
 
-## [Day 27 - Memory Matching Game](https://rathi30daysofjava.herokuapp.com/27-Snake%20Game/index.html)
-![Memory Matching Game](https://github.com/shinchancode/30-Days-of-Javascript/blob/main/static/img/27.png)
+## [Day 27 - Snake Game](https://rathi30daysofjava.herokuapp.com/27-Snake%20Game/index.html)
+![Snake Game](https://github.com/shinchancode/30-Days-of-Javascript/blob/main/static/img/27.png)
 
 ## [Day 28 - Music Player](https://rathi30daysofjava.herokuapp.com/28-Music%20Player/index.html)
 ![Music Player](https://github.com/shinchancode/30-Days-of-Javascript/blob/main/static/img/28.png)
