@@ -4,6 +4,26 @@ Successfully completed 30 Days of javascript where I created 30 projects of java
 ## View Live Demo
 <pre><center><a href="https://rathi30daysofjava.herokuapp.com/"><b>https://rathi30daysofjava.herokuapp.com/</b></a></center></pre>
 
+## Available Scripts
+
+In the project directory, you can run:
+
+# Getting Started with Set Up
+
+This project was made with NodeJs.
+
+### `npm init`
+
+To start with npm
+
+### `npm i express`
+
+To install express
+
+### `nodemon .\app.js`
+
+To host the webpage locally at port
+
 ## [Day 01 - Drum Kit](https://rathi30daysofjava.herokuapp.com/01-Drum%20Kit/index.html)
 ![Drum Kit](https://github.com/shinchancode/30-Days-of-Javascript/blob/main/static/img/01.png)
 
